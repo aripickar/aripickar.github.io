@@ -1,0 +1,176 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Resume - Start Bootstrap Theme
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Ari Pickar
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
+            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Ari
+                        span.text-primary Pickar
+                    .subheading.mb-5
+                        | 1360 Lombard St #202 · San Francisco, CA, 94109 · (914) 564-2195 · 
+                        a(href='mailto:name@email.com') ari.pickar@gmail.com
+                    p.lead.mb-5
+                        | I am an experienced Software Engineer who is passionate about building products that really solve for a customer need. I enjoy talking to customers, figuring out their needs, and building something that solves that problem in a delightful way.
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/ari-pickar-991621111/')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/aripickar')
+                            i.fab.fa-github
+                        a.social-icon(href='https://twitter.com/ari_pickar')
+                            i.fab.fa-twitter
+                        a.social-icon(href="https://aripickar.github.io/Ari_Resume_Winter_2022.pdf")
+                            i.fa.fa-newspaper 
+                        a.social-icon(href="https://mailto:ari.pickar@gmail.com")
+                            i.fa.fa-paper-plane
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Backend Engineer
+                            .subheading.mb-3 Noom
+                            p
+                                | Lead cross-functional team inside the international team to grow Noom's footprint from 1 language and 4 countries to 3 languages and 8 countries. Projects include integrating a 3rd part Translation Management System, selecting and building out a new Content Management System, and massively expanding the recipe database import thoroughput.
+                        .flex-shrink-0
+                            span.text-primary August 2021 - January 2023
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Software Development Engineer
+                            .subheading.mb-3 Amazon Web Services
+                            p
+                                | Worked on AWS Cost Anomaly Detection and AWS Cost Scenario Simulation. Designed and built V1 for Cost Workload Simulator, allowing customers to model the effects of potential changes to their workloads.
+                        .flex-shrink-0
+                            span.text-primary September 2019 - July 2021
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Software Engineering Intern
+                            .subheading.mb-3 OpenTable
+                            p
+                                | Implemented backend feature in C# to exclude certain parties from kitchen pacing requirements, allowing restaurants to better gauge operating capacity.
+                        .flex-shrink-0
+                            span.text-primary June 2018 - August 2018
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Basketball Analytics Intern
+                            .subheading.mb-3 Golden State Warriors
+                            p
+                                | Created program to calculate stat translation between NBA, NCAA and European leagues for different player classifications. Designed proprietary metrics to analytically evaluate prospects for the 2018 NBA Draft. Identified projected UDFA's to target for signing.
+                        .flex-shrink-0
+                            span.text-primary January 2018 - May 2018
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 University of California Berkeley
+                            .subheading.mb-3 Bachelor of Arts, Computer Science 
+                        .flex-shrink-0
+                            span.text-primary August 2006 - May 2010
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Irvington High School
+                        .flex-shrink-0
+                            span.text-primary August 2002 - May 2006
+
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-python
+                        li.list-inline-item
+                            i.fab.fa-java
+                        li.list-inline-item
+                            i.fab.fa-js-square
+                        li.list-inline-item
+                            i.fab.fa-aws
+                        li.list-inline-item
+                            i.fab.fa-docker 
+                        li.list-inline-item
+                            i.fab.fa-git
+                        li.list-inline-item
+                            i.fab.fa-react
+            hr.m-0
+
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p
+                        | Apart from being a Software Engineer, I am a big sports fan, and spend a lot of my time playing and watching sports. 
+                    p.mb-0
+                        | When forced indoors, I am an aspiring chef, and spend a lot of my time trying to refine techniquest and recipes to ensure perfection.
+
+            hr.m-0
+
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
